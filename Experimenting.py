@@ -8,6 +8,7 @@ def quiz():
 
 if __name__ == '__main__':
     if quiz() == 1:
-        print('congrats you win the game! you are the best!!')
+        print('congrats you win the game!')
+        print('go on other turn!')
     else:
         print('loosseeerr!')
