@@ -7,9 +7,7 @@ def quiz():
     return points
 
 if __name__ == '__main__':
-    # name = input('Put your name here: ')
-    # print(f'Hello, {name}!')
     if quiz() == 1:
-        print('congrats you win the game!')
+        print('congrats you win the game! you are the best!!')
     else:
         print('loosseeerr!')
